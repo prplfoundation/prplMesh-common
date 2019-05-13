@@ -56,6 +56,6 @@ private:
     uint16_t *m_length                   = nullptr;
 };
 
-}; // close namespace: beerocks_message
+}; // namespace beerocks_message
 
 #endif //_BEEROCKS/TLVF_BEEROCKS_MESSAGE_HEADER_H_

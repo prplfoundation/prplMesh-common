@@ -78,7 +78,7 @@ public:
             std::string module_name = BEEROCKS_LOGGING_MODULE_NAME);
     logging(const beerocks::config_file::SConfigLog &settings, std::string module_name,
             bool cache_settings = false);
-    ~logging()                  = default;
+    ~logging() = default;
 
     void apply_settings();
 

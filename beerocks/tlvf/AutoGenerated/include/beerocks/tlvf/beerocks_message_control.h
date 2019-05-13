@@ -1950,6 +1950,6 @@ private:
     sSteeringEvAuthFail *m_params  = nullptr;
 };
 
-}; // close namespace: beerocks_message
+}; // namespace beerocks_message
 
 #endif //_BEEROCKS/TLVF_BEEROCKS_MESSAGE_CONTROL_H_

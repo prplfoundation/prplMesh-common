@@ -1122,6 +1122,6 @@ private:
     uint8_t *m_operational          = nullptr;
 };
 
-}; // close namespace: beerocks_message
+}; // namespace beerocks_message
 
 #endif //_BEEROCKS/TLVF_BEEROCKS_MESSAGE_PLATFORM_H_

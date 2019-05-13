@@ -45,7 +45,7 @@ typedef struct sMacAddr {
         rssi    = 0;
     }
 } sMacAddr;
-}
-}
+} // namespace net
+} // namespace beerocks
 
 #endif

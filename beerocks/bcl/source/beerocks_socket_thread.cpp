@@ -205,7 +205,7 @@ bool socket_thread::verify_cmdu(message::sUdsHeader *uds_header)
         if (static_cast<ieee1905_1::eTlvType>(type) == ieee1905_1::eTlvType::TLV_VENDOR_SPECIFIC) {
             auto tlv_vendor_specific = ieee1905_1::tlvVendorSpecific((uint8_t *)tlv, length, true,
                                                                      uds_header->swap_needed);
-            auto oui = ieee1905_1::tlvVendorSpecific::eVendorOUI(
+            auto oui                 = ieee1905_1::tlvVendorSpecific::eVendorOUI(
                 uint32_t(std::get<1>(tlv_vendor_specific.vendor_oui(0))) && 0x00FFFFFF);
             if (oui == ieee1905_1::tlvVendorSpecific::eVendorOUI::OUI_INTEL) {
                 // assuming that the magic is the first data on the beerocks header
@@ -302,8 +302,8 @@ bool socket_thread::work()
             if (read_ready(select.at(i))) {
                 Socket *sd = select.at(i);
                 if (!sd) {
-                    THREAD_LOG(WARNING) << "sd at select with index i=" << int(i)
-                                        << " is nullptr, skipping";
+                    THREAD_LOG(WARNING)
+                        << "sd at select with index i=" << int(i) << " is nullptr, skipping";
                     continue;
                 }
 

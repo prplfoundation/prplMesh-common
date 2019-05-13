@@ -1167,6 +1167,6 @@ typedef struct sSteeringEvSnr {
     }
 } sSteeringEvSnr;
 
-}; // close namespace: beerocks_message
+}; // namespace beerocks_message
 
 #endif //_BEEROCKS/TLVF_BEEROCKS_MESSAGE_COMMON_H_

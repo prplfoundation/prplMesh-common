@@ -386,6 +386,6 @@ enum eActionOp_BML : uint8_t {
     ACTION_BML_ENUM_END                                           = 0xba,
 };
 
-}; // close namespace: beerocks_message
+}; // namespace beerocks_message
 
 #endif //_BEEROCKS/TLVF_BEEROCKS_MESSAGE_ACTION_H_

@@ -846,6 +846,6 @@ private:
     sSteeringEvSnrXing *m_params   = nullptr;
 };
 
-}; // close namespace: beerocks_message
+}; // namespace beerocks_message
 
 #endif //_BEEROCKS/TLVF_BEEROCKS_MESSAGE_MONITOR_H_

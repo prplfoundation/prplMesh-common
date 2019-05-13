@@ -878,6 +878,6 @@ private:
     eActionOp_APMANAGER *m_action_op = nullptr;
 };
 
-}; // close namespace: beerocks_message
+}; // namespace beerocks_message
 
 #endif //_BEEROCKS/TLVF_BEEROCKS_MESSAGE_APMANAGER_H_

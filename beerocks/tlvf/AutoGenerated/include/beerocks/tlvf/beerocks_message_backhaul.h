@@ -425,6 +425,6 @@ private:
     beerocks::net::sMacAddr *m_mac  = nullptr;
 };
 
-}; // close namespace: beerocks_message
+}; // namespace beerocks_message
 
 #endif //_BEEROCKS/TLVF_BEEROCKS_MESSAGE_BACKHAUL_H_

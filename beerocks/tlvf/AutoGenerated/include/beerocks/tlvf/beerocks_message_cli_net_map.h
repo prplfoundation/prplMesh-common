@@ -74,6 +74,6 @@ typedef struct sCliNetworkMapsNodeInfo {
     }
 } sCliNetworkMapsNodeInfo;
 
-}; // close namespace: beerocks_message
+}; // namespace beerocks_message
 
 #endif //_BEEROCKS/TLVF_BEEROCKS_MESSAGE_CLI_NET_MAP_H_

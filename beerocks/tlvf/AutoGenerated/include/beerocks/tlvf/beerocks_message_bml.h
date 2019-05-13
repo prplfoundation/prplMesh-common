@@ -1669,6 +1669,6 @@ private:
     size_t m_buffer_idx__      = 0;
 };
 
-}; // close namespace: beerocks_message
+}; // namespace beerocks_message
 
 #endif //_BEEROCKS/TLVF_BEEROCKS_MESSAGE_BML_H_
